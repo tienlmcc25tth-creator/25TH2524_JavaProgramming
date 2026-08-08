@@ -8,7 +8,7 @@ public static void main (String[] args) {
 	 * -201-300 kWh:2,536 đ/kWh
 	 * -trên 300 kWh:2,834 đ/kWh
 	 */
-	int soDien=250; //kWh
+	int soDien=315; //kWh
 	double tienDien=0;
 	if(tienDien<=50) {
 		tienDien=soDien*1678;
