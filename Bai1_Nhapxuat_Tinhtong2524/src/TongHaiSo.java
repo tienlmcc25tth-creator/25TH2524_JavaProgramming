@@ -13,6 +13,20 @@ public class TongHaiSo {
 		
 		System.out.print("mời nhập số thứ hai: ");
 		num2 = banPhim.nextDouble();
+		
+		//tính toán
+		sum= num1+num2;
+		//xuất ra
+		//System.out.print(" tổng của " + num1 + " và " + num2 + " là " + sum);
+		
+		//System.out.print(" tổng của ");
+		//System.out.print(num1);
+		//System.out.print(" + ");
+		//System.out.print(num2);
+		//System.out.print(" = ");
+		//System.out.print(sum);
+		
+		System.out.printf(" tổng của %.2f và %.2f là %.2f", num1, num2, sum);
 
 	}
 
